@@ -1,9 +1,6 @@
 class FitbitController < ApplicationController
   def login
     base_url = 'http://api.fitbit.com'
-    req_url = base_url + '/oath/request_token'
-    auth_url = base_url + '/oath/authorize'
-    acc_url = base_url + '/oath/access_token'
 
     consumer_key = '45eb861ac9084fd6b15305cd298d8189'
     consumer_secret = 'caa8958e83ac48ccac3b0de98458f55b'
